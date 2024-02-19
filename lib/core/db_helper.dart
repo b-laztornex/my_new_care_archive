@@ -124,7 +124,7 @@ class DBHelper {
     return digest.toString();
   }
 
-  Future<UserModel?> fetchUser(String username, String password) async {
+  Future<UserModel?> authUser(String username, String password) async {
     final db = await database;
 
     List<Map<String, dynamic>> result = await db.query(

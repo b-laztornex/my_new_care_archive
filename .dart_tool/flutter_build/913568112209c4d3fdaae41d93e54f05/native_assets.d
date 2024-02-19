@@ -1,0 +1,1 @@
+ /Users/blaztornex/IT/personal/my_new_care_archive/.dart_tool/flutter_build/913568112209c4d3fdaae41d93e54f05/native_assets.yaml: 

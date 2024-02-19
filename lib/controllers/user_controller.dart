@@ -8,7 +8,7 @@ class UserController extends BaseController {
 
   Future<UserModel?> getUser(String username, String password) async {
     try {
-      user = await dbHelper.fetchUser(username, password);
+      user = await dbHelper.authUser(username, password);
       return user;
     } catch (e) {
       Get.snackbar('Error', 'Error while getting client is $e');
