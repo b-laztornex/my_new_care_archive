@@ -45,4 +45,29 @@ class ClientModel {
     this.representativeTel,
     this.representativeAddress,
   });
+
+  factory ClientModel.fromMap(Map<String, dynamic> map) {
+    return ClientModel(
+      id: map['id'].obs,
+      name: map['name'].obs,
+      surname: map['surname'].obs,
+      birthday: map['birthday'].obs,
+      telephone: map['telephone'].obs,
+      address: map['address'].obs,
+      diagnosed: map['diagnosed'].obs,
+      allergies: map['allergies'].obs,
+      otherAllergies: map['otherAllergies'].obs,
+      lastVaccines: map['lastVaccines'].obs,
+      healthService: map['healthService'].obs,
+      doctorName: map['doctorName'].obs,
+      addressService: map['addressService'].obs,
+      subscriptionNumber: map['subscriptionNumber'].obs,
+      serviceAddress: map['serviceAddress'].obs,
+      representativeName: map['representativeName'].obs,
+      representativeRelationship: map['representativeRelationship'].obs,
+      representativeEmail: map['representativeEmail'].obs,
+      representativeTel: map['representativeTel'].obs,
+      representativeAddress: map['representativeAddress'].obs,
+    );
+  }
 }

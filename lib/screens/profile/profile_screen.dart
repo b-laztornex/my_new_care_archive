@@ -1,13 +1,8 @@
 import 'package:intl/intl.dart';
-import 'package:my_care_archives/components/icon_selection.dart';
-import 'package:my_care_archives/controllers/base_controller.dart';
-import 'package:my_care_archives/model/activity/activity_model.dart';
 import 'package:my_care_archives/model/login/login_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_care_archives/model/report/report_model.dart';
 import 'package:my_care_archives/model/user_model/client_model.dart';
-import 'package:my_care_archives/model/user_model/user_model.dart';
 import 'package:my_care_archives/screens/registration/show_registration_screen.dart';
 import 'package:my_care_archives/utils/const.dart';
 

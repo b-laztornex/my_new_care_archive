@@ -72,12 +72,12 @@ class _AccountScreenState extends State<AccountScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  SizedBox(height: 20.0),
+                  const SizedBox(height: 20.0),
                   getFormInputs(),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
-                  SizedBox(height: 50.0),
+                  const SizedBox(height: 50.0),
                   ElevatedButton(
                     onPressed: () async {
                       int currentStep = step + 1;

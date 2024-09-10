@@ -221,9 +221,13 @@ class _TaskElementState extends State<TaskElement> {
             visible: showElements,
             child: Row(
               children: [
-                displaySubTasksdefault(
-                    widget.activity.name!, widget.activity.types),
-                Expanded(
+                Container(
+                  width: (MediaQuery.sizeOf(context).width / 2),
+                  child: displaySubTasksdefault(
+                      widget.activity.name!, widget.activity.types),
+                ),
+                Container(
+                  width: (MediaQuery.sizeOf(context).width / 2),
                   child: TextField(
                     decoration: InputDecoration(
                       prefixIcon: Icon(Icons.search),
