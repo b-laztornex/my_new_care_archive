@@ -1,4 +1,0 @@
-#Tue Mar 26 21:23:33 CET 2024
-base.0=/Users/blaztornex/IT/personal/my_new_care_archive/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
