@@ -1,0 +1,44 @@
+# Flutter/Dart related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode related
+.vscode/
+
+# Files created by the Flutter tooling
+flutter_export_environment.sh
+flutter_export_environment.bat
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Android
+local.properties
+**/*.jks
+android/key.properties
+
+# iOS
+Pods/
+Podfile.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+Generated.xcconfig
+
+# Temporary files
+*.swp
+*.lock
+
+# Coverage files
+coverage/
