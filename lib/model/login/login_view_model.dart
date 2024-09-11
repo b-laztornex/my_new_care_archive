@@ -1,9 +1,5 @@
-import 'dart:ffi';
-
 import 'package:my_care_archives/controllers/user_controller.dart';
 import 'package:my_care_archives/core/authentication_manager.dart';
-import 'package:my_care_archives/core/cache_manager.dart';
-import 'package:my_care_archives/model/login/login_request_model.dart';
 import 'package:my_care_archives/model/register/register_request_model.dart';
 import 'package:my_care_archives/model/user_model/user_model.dart';
 import 'package:my_care_archives/service/login_service.dart';
@@ -14,7 +10,7 @@ import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 class LoginViewModel extends GetxController {
   late final LoginService _loginService;
   late final AuthenticationManager _authManager;
-  late final UserController _userController;
+  late final UserController _userController = Get.put(UserController());
 
   @override
   void onInit() {

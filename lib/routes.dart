@@ -5,7 +5,6 @@ import 'package:my_care_archives/screens/home/home_screen.dart';
 import 'package:my_care_archives/screens/profile/profile_screen.dart';
 import 'package:my_care_archives/screens/registration/account_screen.dart';
 import 'package:my_care_archives/screens/registration/registration_screen.dart';
-import 'package:my_care_archives/screens/registration/show_registration_screen.dart';
 import 'package:my_care_archives/screens/report/report_screen.dart';
 import 'package:my_care_archives/screens/settings/settings_screen.dart';
 import 'package:my_care_archives/screens/task/task_screen.dart';
